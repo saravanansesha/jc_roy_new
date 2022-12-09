@@ -1,0 +1,2 @@
+(this["webpackJsonpwieldy-hook"]=this["webpackJsonpwieldy-hook"]||[]).push([[35],{1031:function(e,t,a){"use strict";a.r(t);var n=a(0),l=a.n(n),c=a(9);t.default=function(){return l.a.createElement("div",null,l.a.createElement("h2",{className:"title gx-mb-4"},l.a.createElement(c.a,{id:"sidebar.samplePage"})),l.a.createElement("div",{className:"gx-d-flex justify-content-center"},l.a.createElement("h4",null,"Product_type")))}}}]);
+//# sourceMappingURL=35.86a8f8d5.chunk.js.map
