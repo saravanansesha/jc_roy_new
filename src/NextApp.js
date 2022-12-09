@@ -9,7 +9,7 @@ import "./firebase/firebase";
 import App from "./containers/App/index";
 
 const store = configureStore(/* provide initial state if any */);
-
+alert(15)
 const NextApp = () =>
   <Provider store={store}>
     <ConnectedRouter history={history}>
