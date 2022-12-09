@@ -5,8 +5,8 @@
     "static/js/1.854e7eb6.chunk.js": "/jc_roy_new/static/js/1.854e7eb6.chunk.js",
     "static/js/1.854e7eb6.chunk.js.map": "/jc_roy_new/static/js/1.854e7eb6.chunk.js.map",
     "main.css": "/jc_roy_new/static/css/main.4ee543ff.chunk.css",
-    "main.js": "/jc_roy_new/static/js/main.5dd15921.chunk.js",
-    "main.js.map": "/jc_roy_new/static/js/main.5dd15921.chunk.js.map",
+    "main.js": "/jc_roy_new/static/js/main.49d2f28b.chunk.js",
+    "main.js.map": "/jc_roy_new/static/js/main.49d2f28b.chunk.js.map",
     "runtime-main.js": "/jc_roy_new/static/js/runtime-main.f43f93d7.js",
     "runtime-main.js.map": "/jc_roy_new/static/js/runtime-main.f43f93d7.js.map",
     "static/css/4.57a528c9.chunk.css": "/jc_roy_new/static/css/4.57a528c9.chunk.css",
@@ -87,7 +87,7 @@
     "static/js/41.6981ce2b.chunk.js": "/jc_roy_new/static/js/41.6981ce2b.chunk.js",
     "static/js/41.6981ce2b.chunk.js.map": "/jc_roy_new/static/js/41.6981ce2b.chunk.js.map",
     "index.html": "/jc_roy_new/index.html",
-    "precache-manifest.bcd8a96f9c37311dc39cc9626f8573ac.js": "/jc_roy_new/precache-manifest.bcd8a96f9c37311dc39cc9626f8573ac.js",
+    "precache-manifest.53f47b59af5ac87b7761f5cbdacdcc53.js": "/jc_roy_new/precache-manifest.53f47b59af5ac87b7761f5cbdacdcc53.js",
     "service-worker.js": "/jc_roy_new/service-worker.js",
     "static/css/4.57a528c9.chunk.css.map": "/jc_roy_new/static/css/4.57a528c9.chunk.css.map",
     "static/css/main.4ee543ff.chunk.css.map": "/jc_roy_new/static/css/main.4ee543ff.chunk.css.map",
@@ -95,7 +95,7 @@
     "static/js/5.8d5842ea.chunk.js.LICENSE.txt": "/jc_roy_new/static/js/5.8d5842ea.chunk.js.LICENSE.txt",
     "static/js/6.04aff4af.chunk.js.LICENSE.txt": "/jc_roy_new/static/js/6.04aff4af.chunk.js.LICENSE.txt",
     "static/js/7.bc1aea57.chunk.js.LICENSE.txt": "/jc_roy_new/static/js/7.bc1aea57.chunk.js.LICENSE.txt",
-    "static/js/main.5dd15921.chunk.js.LICENSE.txt": "/jc_roy_new/static/js/main.5dd15921.chunk.js.LICENSE.txt",
+    "static/js/main.49d2f28b.chunk.js.LICENSE.txt": "/jc_roy_new/static/js/main.49d2f28b.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/jc_roy_new/static/media/gaxon.b1a63de8.svg",
     "static/media/a5.png": "/jc_roy_new/static/media/a5.3ae38faf.png",
     "static/media/a6.png": "/jc_roy_new/static/media/a6.58d1c1cf.png",
@@ -111,6 +111,6 @@
     "static/css/4.57a528c9.chunk.css",
     "static/js/4.a706cb02.chunk.js",
     "static/css/main.4ee543ff.chunk.css",
-    "static/js/main.5dd15921.chunk.js"
+    "static/js/main.49d2f28b.chunk.js"
   ]
 }
