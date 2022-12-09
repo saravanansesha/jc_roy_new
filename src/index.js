@@ -7,7 +7,6 @@ import registerServiceWorker from './registerServiceWorker';
 import {AppContainer} from 'react-hot-loader';
 
 // Wrap the rendering in a function:
-alert(15)
 const render = Component => {
   ReactDOM.render(
     // Wrap App inside AppContainer
