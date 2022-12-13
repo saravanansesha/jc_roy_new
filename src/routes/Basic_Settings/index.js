@@ -9,6 +9,7 @@ import Product_group from "./product_group";
 import Plants from "./Plants"
 import Department from "./Department"
 import Employees from "./Employees"
+import Suppliers from "./Suppliers"
 
 const TabPane = Tabs.TabPane;
 const {Option, OptGroup} = Select;
@@ -28,7 +29,7 @@ const Basic_Settings = ({match}) => {
         <TabPane tab="Plants" key="2"><Plants /></TabPane>
         <TabPane tab="Department" key="3"><Department /></TabPane>
         <TabPane tab="Employees" key="4"> <Employees /> </TabPane>
-        <TabPane tab="Suppliers" key="5">Content of Tab Pane 3</TabPane>
+        <TabPane tab="Suppliers" key="5"><Suppliers /></TabPane>
         <TabPane tab="Customers" key="6">Content of Tab Pane 3</TabPane>
       </Tabs> 
       {/* <Card className="gx-card" title="Basic">

@@ -53,7 +53,7 @@ const App = (props) => {
     let link = document.createElement('link');
     link.type = 'text/css';
     link.rel = 'stylesheet';
-    link.href = "/css/style.css";
+    link.href = "/style.css";
     link.className = 'gx-style';
     document.body.appendChild(link);
   });
