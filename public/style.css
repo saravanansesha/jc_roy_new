@@ -137,6 +137,9 @@ color: black;
 .pop-up-forms.product_form input{
  width: 250px;
 }
+.pop-up-forms.product_form.non_center{
+    justify-content: unset;
+}
 .pop-up-forms form{
     display: flex;
     flex-direction: column;
