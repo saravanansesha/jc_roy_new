@@ -91,7 +91,7 @@ let Add_suppliername = (props) =>{
               }
             }
         >
-            <div className="pop-up-forms product_form">
+            <div className="pop-up-forms product_form non_center">
             {/* <center><h1>Employee Form</h1></center> */}
             
 <Form
@@ -103,33 +103,28 @@ onFinish={onFinish}
 layout="inline">
     <Row>
         <Col md={8} >
-    <FormItem label='Supplier Name'  rules={[{ required: true, message: 'Required!\'}' }]} name={`suppliername`}>
+    <FormItem label='Customer ID'  rules={[{ required: true, message: 'Required!\'}' }]} name={`id`}>
 
-            <Input placeholder="Supplier Name"/>
+            <Input placeholder="Customer ID"/>
     </FormItem>
     </Col>
     <Col md={8}>
-    <FormItem label='Address'  rules={[{ required: true, message: 'Required\'}' }]} name={`address`}>
+    <FormItem label='Customer Name'  rules={[{ required: true, message: 'Required\'}' }]} name={`customername`}>
 
-<Input placeholder="Address"/>
+<Input placeholder="Customer Name"/>
 </FormItem>
 
     </Col>
     <Col md={8}>
-        <FormItem label='Country of Origin'  rules={[{ required: true, message: 'Required\'}' }]} name={`country_of_origin`}>        
-                <Input placeholder="Country of Origin"/>
+        <FormItem label='Location'  rules={[{ required: true, message: 'Required\'}' }]} name={`country_of_origin`}>        
+                <Input placeholder="Location"/>
         </FormItem>
     </Col>
     </Row>
     <Row>
         <Col md={8}>
-        <FormItem label='Email Primary'  rules={[{ required: true,message:'required'},{type:'email',  message: 'invalid email\'}' }]} name={`primary_email`}>           
-                <Input placeholder="Email Primary"/>
-        </FormItem>
-        </Col>
-        <Col md={8}>
-        <FormItem label='Email Secondary'  rules={[{ required: true,message:'required'},{type:'email',  message: 'invalid email\'}' }]} name={`secondary_email`}>           
-                <Input placeholder="Email Secondary"/>
+        <FormItem label='Email '  rules={[{ required: true,message:'required'},{type:'email',  message: 'invalid email\'}' }]} name={`email`}>           
+                <Input placeholder="Email "/>
         </FormItem>
         </Col>
         <Col md={8}>
@@ -137,12 +132,18 @@ layout="inline">
                 <Input placeholder="Parent Company"/>
         </FormItem>
         </Col>
-    </Row>
-    <Row>
         <Col md={8}>
         <FormItem label='Primary Contact Person'  rules={[{ required: true,message:'required'}]} name={`primary_contact_person`}>           
                 <Input placeholder="Primary Contact Person"/>
         </FormItem>
+        </Col>
+        
+    </Row>
+    <Row>
+        <Col md={8}>
+            <FormItem label='Secondary Contact Person'  rules={[{ required: true,message:'required'}]} name={`secondary_contact_person`}>           
+                    <Input placeholder="Secondary Contact Person"/>
+            </FormItem>
         </Col>
         <Col md={8}>
         <FormItem label='Secondary Contact Person'  rules={[{ required: true,message:'required'}]} name={`secondary_contact_person`}>           
@@ -155,50 +156,8 @@ layout="inline">
         </FormItem>
         </Col>
     </Row>
+ 
     <Row>
-        <Col md={8}>
-        <FormItem label='Product Category'  rules={[{ required: true,message:'required'}]} name={`product`}>           
-                <Input placeholder="Product Category"/>
-        </FormItem>
-        </Col>
-        <Col md={8}>
-        <FormItem label='Scope of Supply'  rules={[{ required: true,message:'required'}]} name={`scope_of_supply`}>           
-                <Input placeholder="Scope of Supply"/>
-        </FormItem>
-        </Col>
-        <Col md={8}>
-        <FormItem label='Type of Approval'  rules={[{ required: true,message:'required'}]} name={`type_of_approval`}>           
-                <Input placeholder="Type of Approval"/>
-        </FormItem>
-        </Col>
-    </Row>
-    <Row>
-        <Col md={8}>
-        <FormItem label='Expiry Date of Approval'  rules={[{ required: true,message:'required'}]} name={`expiry_date_of_approval`}>           
-                <DatePicker onChange={(date, dateString)=>{
-
-                }} placeholder="Expiry Date of Approval"/>
-        </FormItem>
-        </Col>
-        <Col md={8}>
-        <FormItem label='Initial Evaluation Date'  rules={[{ required: true,message:'required'}]} name={`intitial_evaluation_date`}>           
-        <DatePicker onChange={(date, dateString)=>{
-
-            }} placeholder="Initial Evaluation Date"/>
-        </FormItem>
-        </Col>
-        <Col md={8}>
-        <FormItem label='Title'  rules={[{ required: true,message:'required'}]} name={`title`}>           
-                <Input placeholder="Title"/>
-        </FormItem>
-        </Col>
-    </Row>
-    <Row>
-        <Col md={8}>
-        <FormItem label='Status of Approval'  rules={[{ required: true,message:'required'}]} name={`status_of_approval`}>           
-                <Input placeholder="Status of Approval"/>
-        </FormItem>
-        </Col>
         <Col md={8}>
             <FormItem label='Status'  rules={[{ required: true,message:'required'}]} name={`status`}>           
                 <Select
@@ -212,12 +171,10 @@ layout="inline">
             </FormItem>
         </Col>
         <Col md={8}>
-            <FormItem label='Remarks Observations'  rules={[{ required: true,message:'required'}]} name={`remarks_observations`}>           
-            <TextArea rows={4} placeholder={`Remarks Observations`} />
-            </FormItem>
+        <FormItem label='Address'  rules={[{ required: true,message:'required'}]} name={`address`}>           
+                <Input placeholder="Address"/>
+        </FormItem>
         </Col>
-    </Row>
-    <Row>
         <Col className="update" md={8}>
             <div>
                 <Button className="gx-mb-0 "
@@ -227,8 +184,6 @@ layout="inline">
                         Add
                 </Button>
             </div>
-        </Col>
-        <Col md={8}>
         </Col>
     </Row>
     <Row>

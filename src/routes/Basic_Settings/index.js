@@ -10,7 +10,7 @@ import Plants from "./Plants"
 import Department from "./Department"
 import Employees from "./Employees"
 import Suppliers from "./Suppliers"
-
+import Customers from "./Customers"
 const TabPane = Tabs.TabPane;
 const {Option, OptGroup} = Select;
 const FormItem = Form.Item;
@@ -30,7 +30,7 @@ const Basic_Settings = ({match}) => {
         <TabPane tab="Department" key="3"><Department /></TabPane>
         <TabPane tab="Employees" key="4"> <Employees /> </TabPane>
         <TabPane tab="Suppliers" key="5"><Suppliers /></TabPane>
-        <TabPane tab="Customers" key="6">Content of Tab Pane 3</TabPane>
+        <TabPane tab="Customers" key="6"><Customers /></TabPane>
       </Tabs> 
       {/* <Card className="gx-card" title="Basic">
       <Tabs  activeKey={keys} onChange={callback}>
