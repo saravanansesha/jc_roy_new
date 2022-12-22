@@ -318,7 +318,13 @@ justify-content: center;
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-
+.for_gapfix th{
+    text-align: center !important;
+}
+.permission_check{
+    display: flex;
+    justify-content: space-around;
+}
 /* .for-checkbox input + .label_check_values{
     opacity: 0;
 } 
