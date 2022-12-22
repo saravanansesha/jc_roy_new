@@ -137,6 +137,7 @@ let Materialedit = (props) =>{
             title:'Permission',
             dataIndex:'permission',
             key:'permission',
+            // align:'center'
         }
     ]
    function applychanges(e){
@@ -204,7 +205,7 @@ let Materialedit = (props) =>{
                 data.push({
                     key : ind,
                     module : item.name,
-                    permission : <><Checkbox checked={false} onChange={(e)=>{applychanges(e)}} andress="view" id={item.id}>View</Checkbox><Checkbox checked={false} onChange={(e)=>{applychanges(e)}} andress="edit" id={item.id}>Edit</Checkbox><Checkbox checked={false} onChange={(e)=>{applychanges(e)}} andress="delete" id={item.id}>Delete</Checkbox></>
+                    permission : <span className="permission_check"><Checkbox checked={false} onChange={(e)=>{applychanges(e)}} andress="view" id={item.id}>View</Checkbox><Checkbox checked={false} onChange={(e)=>{applychanges(e)}} andress="edit" id={item.id}>Edit</Checkbox><Checkbox checked={false} onChange={(e)=>{applychanges(e)}} andress="delete" id={item.id}>Delete</Checkbox></span>
                 })
                 
             }else{
@@ -213,7 +214,7 @@ let Materialedit = (props) =>{
                 data.push({
                     key : ind, 
                     module : item.name,
-                    permission : <><Checkbox onChange={(e)=>{applychanges(e)}} andress="view" checked={aa.indexOf('view') != -1 ? true : false} id={item.id}>View</Checkbox><Checkbox andress="edit" onChange={(e)=>{applychanges(e)}}  checked={aa.indexOf('edit') != -1 ? true : false} id={item.id}>Edit</Checkbox><Checkbox andress="delete"  checked={aa.indexOf('delete') != -1 ? true : false} onChange={(e)=>{applychanges(e)}} id={item.id}>Delete</Checkbox></>
+                    permission : <span className="permission_check"><Checkbox onChange={(e)=>{applychanges(e)}} andress="view" checked={aa.indexOf('view') != -1 ? true : false} id={item.id}>View</Checkbox><Checkbox andress="edit" onChange={(e)=>{applychanges(e)}}  checked={aa.indexOf('edit') != -1 ? true : false} id={item.id}>Edit</Checkbox><Checkbox andress="delete"  checked={aa.indexOf('delete') != -1 ? true : false} onChange={(e)=>{applychanges(e)}} id={item.id}>Delete</Checkbox></span>
                 })
                 
             }
@@ -222,7 +223,7 @@ let Materialedit = (props) =>{
             data.push({
                 key : ind,
                 module : item.name,
-                permission : <><Checkbox onChange={applychanges} andress="view" id={item.id}>View</Checkbox><Checkbox onChange={(e)=>{applychanges(e)}} id={item.id}   andress="edit">Edit</Checkbox><Checkbox andress="delete" onChange={(e)=>{applychanges(e)}} id={item.id}>Delete</Checkbox></>
+                permission : <span className="permission_check"><Checkbox onChange={applychanges} andress="view" id={item.id}>View</Checkbox><Checkbox onChange={(e)=>{applychanges(e)}} id={item.id}   andress="edit">Edit</Checkbox><Checkbox andress="delete" onChange={(e)=>{applychanges(e)}} id={item.id}>Delete</Checkbox></span>
             })
         }
     })
@@ -255,7 +256,7 @@ className={'big_forms'}
 onFinish={onFinish}
 layout="inline">
     <Row>
-        <Col md={8} >
+        <Col md={12} >
         <FormItem label={'Role'}  rules={[{ required: true, message: 'Please select any one of the field'}]} name={`role`}>
             <Select
                 placeholder="Role"
@@ -267,7 +268,7 @@ layout="inline">
             </Select>
     </FormItem>
     </Col>
-    <Col md={8}>
+    <Col md={12}>
     <FormItem label={'Status'}  rules={[{ required: true, message: 'Please select any one of the field'}]} name={`status`}>
             <Select
                 placeholder="Status"
