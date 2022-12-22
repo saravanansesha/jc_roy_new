@@ -294,7 +294,7 @@ layout="inline">
     </Col>
     </Row>
     <Row>
-    <Col md={24}>
+    <Col className="for_gapfix" md={24}>
     <Table  className="gx-table-responsive"      columns={columns} dataSource={data}/> 
     </Col>
     </Row>    

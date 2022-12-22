@@ -314,6 +314,10 @@ justify-content: center;
     color: blue;
     cursor: pointer;
 }
+.for_gapfix{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 
 /* .for-checkbox input + .label_check_values{
     opacity: 0;
